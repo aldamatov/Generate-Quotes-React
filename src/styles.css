@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap");
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background-color: #008aa9;
+}
+
+.container {
+  text-align: center;
+  border: 1px solid grey;
+  padding: 20px;
+  background-color: white;
+  width: 80%;
+  height: 60vh;
+  margin: 20px auto;
+  border-radius: 30px;
+  font-size: 50px;
+  color: #008aa9;
+}
+
+.App {
+  background-color: #268aa9;
+  width: 60%;
+  margin: 20px auto;
+  padding: 30px;
+}
+
+.btns {
+  margin-top: 20px;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.btns button {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #008aa9;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  width: 150px;
+  height: 70px;
+}
+.btns button:hover {
+  background-color: white;
+  color: #008aa9;
+  border: 3px solid #008aa9;
+}
+#prev {
+  position: absolute;
+  left: 20px;
+}
+#next {
+  position: absolute;
+  right: 20px;
+}
+.no-author {
+  color: red;
+}
+#quote {
+  width: 100%;
+  font-family: "Ms Madi", cursive;
+  text-align: center;
+  padding-bottom: 0;
+  margin-bottom: 10px;
+  font-size: 3.1rem;
+  font-weight: bold;
+}
+#author {
+  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 100px;
+}
+.page {
+  font-size: 1.75rem;
+}
